@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch=".." />
-  <remote name="bitbucket" fetch="git@bitbucket.org:binarin"/>
+  <remote name="bitbucket" fetch="git@bitbucket.org"/>
 
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
 
   <project name="rc" remote="github" path="rc"/>
-  <project name="desktop-secrets" remote="bitbucket" path="secrets"/>
+  <project name="binarin/desktop-secrets" remote="bitbucket" path="secrets"/>
 
 </manifest>
