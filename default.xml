@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="github" fetch=".." />
-  <remote name="bitbucket" fetch="git@bitbucket.org"/>
+  <remote name="bitbucket" fetch="ssh://git@bitbucket.org"/>
 
   <default revision="refs/heads/master" remote="github" sync-j="4"/>
 
